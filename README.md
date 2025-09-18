@@ -17,6 +17,11 @@ It also supports **AI-powered responses** via the **Groq API**.
 
 ---
 
+## 🛠️ Requirements
+
+- Python **3.8** or newer  
+- `python-dotenv` module (for loading API key)  
+
 ## 🛠️ Installation & Usage  
 
 Run the following commands step by step in your terminal (PyCharm / VS Code / Command Prompt):  
@@ -56,4 +61,5 @@ Save the file. The program will automatically load the key when running.
 System commands (like “open notepad”, “increase brightness”) are handled locally.
 
 If you ask a general knowledge or fun question (like “Tell me a joke” or “What is quantum computing?”), 
+
 the program sends your request to the Groq API and speaks the AI’s response back.
