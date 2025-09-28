@@ -557,7 +557,7 @@ def handle_command(command):
             speak("Hello Udhav! I'm your sweet assistant Siri. How can I help you today?")
 
         elif "how are you" in command:
-            speak("I'm doing great, thank you for asking! I'm here and ready to help you with anything you need.")
+            speak("I'm doing great, thank you for asking! I'm here and ready to help you")
 
         # System commands
         elif "notepad" in command:
@@ -799,4 +799,5 @@ app.protocol("WM_DELETE_WINDOW", on_closing)
 # ----------------- Start Application -----------------
 print("🎯 Initializing Computer Copilot...")
 app.after(1000, start_after_welcome)
+
 app.mainloop()
